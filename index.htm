@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="utf-8">
+	<title>title</title>
+	<script type="text/javascript">document.documentElement.className+=' js';</script>
+	<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+<div class="content">
+	<ul class="navigation-x">
+		<li class="set1 tab-bg" data-tab-name="set1">.</li>
+		<li class="set2 tab-bg" data-tab-name="set2">.</li>
+
+		<li class="tab set1 selected"
+				data-tab-c="tab1"
+				data-tab-name="set1">
+			<span class="c"><span>Кратко 1</span></span></li>
+		<li class="tab set1"
+				data-tab-c="tab2"
+				data-tab-name="set1">
+			<span class="c"><span class="pseudo_link">Подробно 1</span></span></li>
+
+		<li class="tab set2 selected"
+				data-tab-c="tab1"
+				data-tab-name="set2">
+			<span class="c"><span>Кратко 2</span></span>
+		</li>
+		<li class="tab set2"
+				data-tab-c="tab2"
+				data-tab-name="set2">
+			<span class="c"><span class="pseudo_link">Подробно 2</span></span>
+		</li>
+		<li class="tab set1"
+				data-tab-c="tab3"
+				data-tab-name="set1">
+			<span class="c"><span class="pseudo_link">Ещё 1</span></span>
+		</li>
+
+
+	</ul>
+
+	<div class="set1 tab-c tab1">
+		<p>Text</p>
+	</div>
+
+	<div class="set1 tab-c tab2 hidden">
+		<p>One</p>
+		<p>Two</p>
+		<p>Tree</p>
+		<p>Four</p>
+		<p>Fire</p>
+		<p>Six</p>
+	</div>
+
+	<div class="set2 tab-c tab1">
+		<p>Numbers</p>
+	</div>
+
+	<div class="set2 tab-c tab2 hidden">
+		<p>1</p>
+		<p>2</p>
+		<p>3</p>
+		<p>4</p>
+		<p>5</p>
+		<p>6</p>
+	</div>
+</div>
+
+<div class="set1 tab-c tab3 hidden">
+	<p>One more</p>
+
+</div>
+
+<script type="text/javascript" src="http://yandex.st/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>

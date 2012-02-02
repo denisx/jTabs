@@ -1,0 +1,89 @@
+html, body {
+	padding: 1em;
+}
+
+/* global */
+p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+p, li {
+	margin: 0 0 0.5em 0;
+}
+.pseudo_link {
+	color: #007bc3;
+	border-bottom: 1px dashed #94b8de;
+	cursor: pointer;
+}
+.hidden {
+	display: none !important;
+}
+
+.navigation-x {
+	margin-bottom: 1em;
+}
+.navigation-x li {
+	float: left;
+	list-style: none;
+	text-indent: 0;
+	margin: 0 0 0 1em;
+	display: block;
+}
+.navigation-x li:first-child {
+	margin-left: 0;
+}
+.navigation-x:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+.navigation-x {
+	//zoom: 1;
+}
+
+/* tab */
+.tab .c {
+	padding: 0.1em 0.5em;
+	position: relative;
+}
+.tab.selected .c {
+	background-color: #eee;
+}
+.navigation-x .tab-bg {
+	position: absolute;
+	top: 0;
+	width: 2em;
+	height: 1em;
+	left: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	-webkit-border-radius: 6px;
+	-webkit-box-shadow: 0 0 1em #000;
+}
+
+.tab-c.hidden {
+	display: block !important;
+}
+.js .tab-c.hidden {
+	display: none !important;
+}
+
+
+/* dev */
+.tab-c {
+	padding-left: 0.5em;
+	border-left: 2px dotted;
+}
+.set1.tab-c {
+	border-color: #007bc3;
+}
+.set1.tab-bg {
+	background-color: #007bc3;
+}
+.set2.tab-c {
+	border-color: #65DA33;
+}
+.set2.tab-bg {
+	background-color: #65DA33;
+}

@@ -41,4 +41,7 @@ $(function(){
 		move_tab_bg(t,null);
 	});
 
+	//init stat
+	$('<img/>',{src:'http://mc.yandex.ru/watch/12273184',alt:'',style:'display:none'}).appendTo('body');
+
 });
